@@ -1,7 +1,7 @@
 from random import randint
 p = 11
 q = 7
-g = 3
+g = 4
 s = randint(1, q-1)
 h = g**s % p
 print(h)
